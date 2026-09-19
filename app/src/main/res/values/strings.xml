@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Broadcast Helper</string>
+    <string name="service_label">Broadcast Helper</string>
+    <string name="service_desc">Taps through WhatsApp screens to create broadcast lists for you. Only works when you press Start inside the Broadcast Helper app.</string>
+</resources>
