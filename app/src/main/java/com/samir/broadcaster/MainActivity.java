@@ -106,7 +106,7 @@ public class MainActivity extends Activity {
         Button start = button("START", new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onStart();
+                startBroadcastJob();
             }
         });
         root.addView(start);
@@ -151,7 +151,7 @@ public class MainActivity extends Activity {
         handler.removeCallbacks(ticker);
     }
 
-    private void onStart() {
+    private void startBroadcastJob() {
         final BroadcastService service = BroadcastService.instance;
         if (service == null) {
             Toast.makeText(this, "Do Step 1 first: turn the helper ON in Accessibility settings.", Toast.LENGTH_LONG).show();
